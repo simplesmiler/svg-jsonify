@@ -3,21 +3,29 @@
   "description": "A browserify transform to extract metadata and content from svg",
   "version": "0.1.0",
   "author": "Denis Karabaza <denis.karabaza@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/simplesmiler/svg-jsonify/issues"
+  },
   "dependencies": {
     "browserify-transform-tools": "^1.5.1",
     "cheerio": "^0.19.0"
   },
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "homepage": "https://github.com/simplesmiler/svg-jsonify",
   "keywords": [
     "browserify",
     "svg"
   ],
   "license": "ISC",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplesmiler/svg-jsonify"
+  },
   "scripts": {
     "lint": "./node_modules/.bin/eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "eslint": "^1.10.3"
   }
 }
